@@ -33,6 +33,9 @@ var links = document.querySelector(".links")
     information.classList.toggle("white")
     games.classList.toggle("white")
     mode.classList.toggle("colorchange")
+    mode.classList.toggle("rotate")
+    
     
  })
+
 
