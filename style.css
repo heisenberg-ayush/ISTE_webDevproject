@@ -11,6 +11,13 @@ body{
     overflow-x: hidden;
     
     
+}.mode:hover{
+    transform: rotate(90deg);
+    transition: 0.5s;
+}
+.rotate{
+    transform: rotate(360deg);
+    transition: 0.5s;
 }
 .explorebutton:hover{
     background-color: blue;
@@ -117,6 +124,7 @@ ul li{
 }
 .links ul {
     display: flex;
+    
 }
 .last-link{ 
     color: white;
